@@ -1,0 +1,188 @@
+body {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+main::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  width: 80vh;
+  background: linear-gradient(92deg, #000 25%, rgba(0, 0, 0, 0) 75%) no-repeat;
+}
+
+main .personagem {
+  display: none;
+  height: 100vh;
+}
+
+main .personagem.selecionado {
+  display: block;
+}
+
+main .personagem .imagem {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.conteudo {
+  position: absolute;
+  top: 0;
+  left: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  max-width: 380px;
+  z-index: 1;
+}
+
+.conteudo .nome-personagem {
+  color: #ffffff;
+  font-size: 48px;
+  font-family: "Secular One";
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.conteudo .descricao {
+  color: #ffffff;
+  font-family: "Rubik";
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* SCROLL APLICADO AQUI */
+.botoes {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  height: 100vh;
+  padding: 16px 0;
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer e Edge antigo */
+  scrollbar-color: #666 #000;
+  scroll-behavior: smooth;
+}
+
+.botoes::-webkit-scrollbar {
+  width: 6px;
+  display: none; /* Chrome, Safari e Opera */
+}
+
+.botoes::-webkit-scrollbar-thumb {
+  background-color: #666;
+  border-radius: 10px;
+}
+
+.botoes .botao {
+  border: none;
+  background-color: #000000;
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botoes .botao img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: object-position 0.3s ease;
+  pointer-events: none;
+}
+
+/* Ajuste de posicionamento usando object-position (Y = vertical) */
+.botao-Sung-Jin-Woo-selecionado img {
+  object-position: 85%;
+}
+
+.botao-iron img {
+  object-position: 40%;
+}
+
+.botao-tusk img {
+  object-position: 45%;
+}
+
+.botao-kaisel img {
+  object-position: 45% 1%;
+}
+
+.botao-beru img {
+  object-position: 85% 45%;
+}
+
+.botoes .botao.selecionado {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px #d9d9d9;
+}
+
+/* Estilos personalizados por personagem */
+.botoes .botao.botao-Sung-Jin-Woo-selecionado.selecionado {
+  box-shadow: 0 0 20px rgb(35, 4, 139);
+}
+
+.botoes .botao.botao-igris.selecionado {
+  box-shadow: 0 0 20px #ff0000;
+}
+
+.botoes .botao.botao-tank.selecionado {
+  box-shadow: 0 0 20px #0011ff;
+}
+
+.botoes .botao.botao-iron.selecionado {
+  box-shadow: 0 0 20px #e100ff;
+}
+
+.botoes .botao.botao-tusk.selecionado {
+  box-shadow: 0 0 20px #ff001e;
+}
+
+.botoes .botao.botao-kaisel.selecionado {
+  box-shadow: 0 0 20px #00ffff;
+}
+
+.botoes .botao.botao-beru.selecionado {
+  box-shadow: 0 0 20px #ff00b7;
+}
+
+/* Estilos do button + detalhes - detalhes */
+
+.expandir-detalhes {
+  color: #00aaff;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: bold;
+  
+}
+
+.descricao {
+  max-height: 280px; /* altura do resumo */
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.descricao.expandido {
+  max-height: 1000px; /* altura grande suficiente pro texto completo */
+}
+
+.descricao.fechando {
+  max-height: 150px;
+}
