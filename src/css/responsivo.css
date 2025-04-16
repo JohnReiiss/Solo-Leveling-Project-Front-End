@@ -103,6 +103,42 @@
     }
 }
 
+/* Estilos específicos para iPhones grandes (ex: iPhone 13 Pro Max - 6.7") */
+@media only screen 
+  and (device-width: 428px) 
+  and (device-height: 926px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    
+    .conteudo {
+        max-height: 50vh;
+        font-size: 1.6rem;
+        padding: 25px;
+    }
+
+    .nome-personagem {
+        font-size: 2.6rem;
+    }
+
+    .descricao {
+        font-size: 1.5rem;
+    }
+
+    .botoes {
+        padding: 30px 40px;
+        margin-top: 20px;
+    }
+
+    .botoes .botao {
+        width: 80px;
+        height: 80px;
+    }
+
+    .botoes .botao img {
+        max-width: 80px;
+    }
+}
+
+
 @media (max-width: 425px) {
     main .personagem .imagem {
         height: auto;
