@@ -17,6 +17,7 @@
         max-width: 500px;
         margin: 145px auto 0;
         padding: 10px 15px;
+        padding-bottom: 15px;
         top: -130px;
         background: rgba(0, 0, 0, 0.8);
         left: 0;
@@ -87,6 +88,7 @@
         padding: 30px;
         margin-top: 5px;
         padding-bottom: 80px;
+        padding-top: 5px;
     }
 
     .botoes .botao {
