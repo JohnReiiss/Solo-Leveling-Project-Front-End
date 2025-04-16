@@ -108,36 +108,154 @@
   and (device-width: 428px) 
   and (device-height: 926px) 
   and (-webkit-device-pixel-ratio: 3) {
-    
+
+    .personagem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .imagem {
+        height: auto;
+        max-height: 60vh;
+        object-fit: cover;
+        z-index: 1;
+    }
+
     .conteudo {
-        max-height: 50vh;
-        font-size: 1.6rem;
-        padding: 25px;
+        position: relative;
+        z-index: 2;
+        width: 90%;
+        max-width: 500px;
+        background: rgba(0, 0, 0, 0.85);
+        margin-top: -50px;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(177, 177, 178, 0.5);
+        overflow-y: auto;
+        max-height: 35vh;
+        min-height: 100px;
+        height: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: thin;
+        scrollbar-color: #6600ff rgba(0, 0, 0, 0.2);
+    }
+
+    .conteudo::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .conteudo::-webkit-scrollbar-thumb {
+        background: #6600ff;
+        border-radius: 3px;
     }
 
     .nome-personagem {
-        font-size: 2.6rem;
+        font-size: 2.4rem;
+        margin-bottom: 10px;
     }
 
     .descricao {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     .botoes {
-        padding: 30px 40px;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;
         margin-top: 20px;
+        width: 100%;
+        z-index: 3;
     }
 
     .botoes .botao {
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
     }
 
     .botoes .botao img {
-        max-width: 80px;
+        max-width: 70px;
     }
 }
+@media only screen 
+  and (device-width: 428px) 
+  and (device-height: 926px) 
+  and (-webkit-device-pixel-ratio: 3) {
 
+    .personagem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .imagem {
+        height: auto;
+        max-height: 60vh;
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    .conteudo {
+        position: relative;
+        z-index: 2;
+        width: 90%;
+        max-width: 500px;
+        background: rgba(0, 0, 0, 0.85);
+        margin-top: -50px;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(177, 177, 178, 0.5);
+        overflow-y: auto;
+        max-height: 35vh;
+        min-height: 100px;
+        height: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: thin;
+        scrollbar-color: #6600ff rgba(0, 0, 0, 0.2);
+    }
+
+    .conteudo::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .conteudo::-webkit-scrollbar-thumb {
+        background: #6600ff;
+        border-radius: 3px;
+    }
+
+    .nome-personagem {
+        font-size: 2.4rem;
+        margin-bottom: 10px;
+    }
+
+    .descricao {
+        font-size: 1.4rem;
+    }
+
+    .botoes {
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;
+        margin-top: 20px;
+        width: 100%;
+        z-index: 3;
+    }
+
+    .botoes .botao {
+        width: 70px;
+        height: 70px;
+    }
+
+    .botoes .botao img {
+        max-width: 70px;
+    }
+}
 
 @media (max-width: 425px) {
     main .personagem .imagem {
