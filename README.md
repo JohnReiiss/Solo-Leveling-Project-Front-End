@@ -56,6 +56,7 @@ git clone https://github.com/seu-usuario/solo-leveling-gallery.git
   
   <h3>Versão Mobile</h3>
   <img src="https://github.com/user-attachments/assets/810d10ed-336a-4401-b074-8704c29d57da" width="400" alt="Visualização Desktop com telas menores>
+    
 </div>
 
 ## 🌐 Estrutura de Arquivos
