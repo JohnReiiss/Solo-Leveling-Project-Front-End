@@ -48,8 +48,13 @@ git clone https://github.com/seu-usuario/solo-leveling-gallery.git
 ## 📸 Capturas de Tela
 
 <div align="center">
-  <img src="./preview-desktop.jpg" width="45%" alt="Versão Desktop">
-  <img src="./preview-mobile.jpg" width="45%" alt="Versão Mobile">
+   width="45%" alt="Versão Desktop">
+  ![image](https://github.com/user-attachments/assets/1012b01c-2c5e-4be3-8ce8-3029fd7bb1fb)
+
+  width="45%" alt="Versão Mobile">
+  ![WhatsApp Image 2025-04-16 at 15 39 57](https://github.com/user-attachments/assets/3fa58165-71d6-4794-b43a-8856aeb1dbcd)
+
+  
 </div>
 
 ## 🌐 Estrutura de Arquivos
