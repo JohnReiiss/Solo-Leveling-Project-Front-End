@@ -93,12 +93,12 @@ Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para d
 
 ### 📌 Notas de Atualização
 
-**V0.1.0** (2023-11-20)
+**V0.1.0** (2025-04-16)
 - [x] Layout principal completo
 - [x] Responsividade para mobile
 - [x] Sistema de detalhes expansível
 
-**Pacote de responsividade para dispositivos IOS V 0.2.0**:
+**Pacote de responsividade para dispositivos IOS V 0.2.0** (2025-04-16):
 - [x] Layout principal completo
 - [x] Responsividade para mobile
 - [x] Sistema de detalhes expansível
