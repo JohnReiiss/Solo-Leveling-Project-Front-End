@@ -43,7 +43,7 @@ git clone https://github.com/seu-usuario/solo-leveling-gallery.git
 
 2. Abra o arquivo `index.html` no seu navegador preferido
 
-3. Ou acesse online: [Link para Deploy](#) *(adicione seu link aqui)*
+3. Ou acesse online: [Link para Deploy](#) *(https://johnreiiss.github.io/Solo-Leveling-Project-Front-End/)*
 
 ## 📸 Capturas de Tela
 
@@ -93,14 +93,14 @@ Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para d
 
 ### 📌 Notas de Atualização
 
-**v1.0.0** (2023-11-20)
+**V0.1.0** (2023-11-20)
 - [x] Layout principal completo
 - [x] Responsividade para mobile
 - [x] Sistema de detalhes expansível
 
-**Próximas Atualizações**:
-- [ ] Adicionar mais personagens
-- [ ] Implementar modo escuro/claro
-- [ ] Adicionar animações CSS
+**Pacote de responsividade para dispositivos IOS V 0.2.0**:
+- [x] Layout principal completo
+- [x] Responsividade para mobile
+- [x] Sistema de detalhes expansível
 
 ---
