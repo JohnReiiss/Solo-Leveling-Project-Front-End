@@ -85,9 +85,9 @@ Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para d
 ## ✉️ Contato
 
 - **Desenvolvedor**: [Johnatan dos Santos Reis]  
-- **Email**: johnatan.reiiss@icloud.com 
-- **GitHub**: [github.com/seu-usuario](https://github.com/JohnReiiss)  
-- **LinkedIn**: [linkedin.com/in/seu-perfil](https://www.linkedin.com/in/johnatan-dos-santos-reis-945092b7/)  
+- **E-mail:** johnatan.reiiss@icloud.com
+- **LinkedIn:** [linkedin.com/in/johnatan-hayabusa](https://www.linkedin.com/in/johnatan-dos-santos-reis-945092b7/)
+- **GitHub:** [github.com/JohnReiiss](https://github.com/JohnReiiss)  
 
 ---
 
